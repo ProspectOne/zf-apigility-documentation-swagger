@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.2.1 - TBD
+## 1.3.0 - TBD
 
 ### Added
 
@@ -19,6 +19,45 @@ All notable changes to this project will be documented in this file, in reverse 
 ### Fixed
 
 - Nothing.
+
+## 1.2.2 - TBD
+
+### Added
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
+## 1.2.1 - 2016-10-11
+
+### Added
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- [#27](https://github.com/zfcampus/zf-apigility-documentation-swagger/pull/27)
+  fixes the `SwaggerUiControllerFactory` to properly use the `$container`
+  variable, not the nonexistent `$services` variable, when pulling the
+  `ApiFactory` to inject in the controller.
 
 ## 1.2.0 - 2016-07-14
 
